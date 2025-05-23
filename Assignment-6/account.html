@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="account.css" />
+    <title>Account Details</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="account">Step 1: Account</td>
+            <td class="remaining">Step 2: Personal Details</td>
+            <td class="remaining">Step 3: Your Review</td>
+        </tr>
+    </table>
+    <form action="/submit" method="get">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="email">Email Address :</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required />
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required />
+            <label for="cnfrm-password">Confirm Password :</label>
+            <input type="password" name="Confirm Password" id="cnfrm-password" placeholder="Confirm Password"
+                required />
+            <a href="./index.html"><img src="Images/back.png" alt="back-image" /></a>
+            <a href="personal.html"><img src="Images/next.png" alt="next-image" /></a>
+        </fieldset>
+    </form>
+</body>
+
+</html>

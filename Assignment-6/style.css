@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+    font-family: serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+.last-para {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 150px;
+}
